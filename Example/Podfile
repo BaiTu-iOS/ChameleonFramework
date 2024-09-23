@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ChameleonFramework_Example' do
+  pod 'ChameleonFramework', :path => '../'
+
+  target 'ChameleonFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
